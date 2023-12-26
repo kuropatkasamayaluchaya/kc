@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Jacques Francois Shadow', cursive;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logoimg {
+    width: 10%;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+
+main {
+    background-image: url(images/сифон.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+h2 {
+    font-family: 'Jacques Francois Shadow', cursive;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+
+.comannds {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comannd {
+    width: 30%;
+}
+
+.comanndimg {
+    width: 200px;
+    height: 900px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
